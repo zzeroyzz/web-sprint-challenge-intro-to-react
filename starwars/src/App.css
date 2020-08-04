@@ -1,11 +1,24 @@
 .App {
   text-align: center;
   background-image: url('./images/rm-bg.jpg');
-
+  color:red;
+  font-family: monospace;
+  background-color: aqua;
 }
 .Header {
   color: #443e3e;
   text-shadow: 1px 1px 5px #fff;
 }
 
+
+.card{
+  color:lime;
+  background: red;
+  border-radius: 25px;
+  
+}
+
+.CharacterCard{
+  background-color: red;
+}
 /* write your parent styles in here for your App.js */

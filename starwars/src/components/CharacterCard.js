@@ -27,7 +27,7 @@ const CharacterCard = ({ character }) => {
         {/* Card, CardHeader, CardBody, CardTitle, and CardText all on reactstrap "Card" component page*/}
 
         
-        <CardBody style={{backgroundColor: '#f1f1f1'}}>
+        <CardBody style={{backgroundColor: 'black'}}>
              <CardHeader tag="h1">Card ID: {character.id}</CardHeader>
             <CardImg src= {character.image}/>
             <CardTitle tag="h2">Name: {character.name}</CardTitle>

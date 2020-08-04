@@ -5,10 +5,10 @@ import Character from "./components/Character"
 const App = () => {
  
 
-  return (
+  return ( //calling Character jsx
     <div className="App">
       
-    <Character/>
+    <Character/> 
 
   </div >
   
